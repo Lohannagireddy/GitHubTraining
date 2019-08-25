@@ -9,6 +9,9 @@ namespace TestProectDemo
         [TestMethod]
         public void TestMethod1()
         {
+            string expected = "Testing";
+            string actual = "Testing";
+            Assert.AreEqual(expected, actual);
         }
     }
 }
